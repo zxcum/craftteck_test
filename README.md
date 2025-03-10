@@ -42,6 +42,12 @@ HAVING SUM(Orders.total_amount) > 1000;
 http://localhost:3000/api/people?name=Олег&age=33
 ```
 
+Если не локально, то 
+```
+http://<hostname>:3000/api/people?name=Олег&age=33
+```
+
+
 В ссылку преедаем данные Олег и возраст 33
 
 Пример изпользования ссылки:
